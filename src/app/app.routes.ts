@@ -5,6 +5,7 @@ import { ComponentInputExampleComponent } from './components/component-input-exa
 import { ForDirectiveExampleComponent } from './components/for-directive-example/for-directive-example.component';
 
 export const routes: Routes = [
+    { path: 'component-input-example', component: ComponentInputExampleComponent},
     { path: 'for-directive-example', component: ForDirectiveExampleComponent},
     { path: 'component-input-example', component: ComponentInputExampleComponent},
     {path: 'event-bind-example', component: EventBindExampleComponent},
